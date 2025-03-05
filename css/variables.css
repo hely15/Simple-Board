@@ -1,0 +1,11 @@
+:root {
+    --color-1: #FFFFFF;
+}
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(../storage/font/Montserrat/static/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../storage/font/Montserrat/static/Montserrat-Bold.ttf);
+}

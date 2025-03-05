@@ -1,0 +1,82 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+   display: flex;
+   flex-wrap: wrap;
+   position: absolute;
+   gap: 30px    ;
+   top: 90px;
+   left: 40%;
+}
+@media (max-width: 1440px) {
+    main{
+        left: 23%;
+    }
+}
+
+span {
+    font-family: "Montserrat-Medium";
+    font-family: 14px;
+}
+strong {
+    font-family: "Montserrat-Bold";
+    font-size: 30px;
+}
+.div__container{
+    width: 250px;
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 8px;
+}
+#students {
+    background-color: #F0F9FF;
+    
+    div {
+        background-color: #F0F9FF;
+    }
+}
+#course {
+    background-color: #FEF6FB;
+
+    div {
+        background-color: #FEF6FB;
+    }
+}
+#payment {
+    background-color: #FEFBEC;
+
+    div {
+        background-color: #FEFBEC;
+    }
+}
+#users {
+    background: linear-gradient(90deg, #FEAF00 0%, #F8D442 100%);
+
+    div {
+        background: linear-gradient(90deg, #FEAF00 0%, #F8D442 100%);
+    }
+
+}
+.div__container div{
+    background: orange;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+
+#payment > strong{
+    position: relative;
+}
+#payment > strong::before{
+    content: attr(data-format);
+}
