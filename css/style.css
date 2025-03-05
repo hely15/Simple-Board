@@ -1,0 +1,111 @@
+@import url("variables.css");
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(254,175,0);
+    background: -moz-linear-gradient(56deg, rgba(254,175,0,1) 0%, rgba(255,219,72,1) 78%, rgba(255,219,72,1) 85%);
+    background: -webkit-linear-gradient(56deg, rgba(254,175,0,1) 0%, rgba(255,219,72,1) 78%, rgba(255,219,72,1) 85%);
+    background: linear-gradient(56deg, rgba(254,175,0,1) 0%, rgba(255,219,72,1) 78%, rgba(255,219,72,1) 85%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#feaf00",endColorstr="#ffdb48",GradientType=1); 
+    height: 100svh;
+}
+
+form {
+    padding: 44px 30px;
+    background: white;
+    border-radius: 15px;
+}
+
+.div__title{
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 50px;
+}
+
+.div__title h1 {
+    font-family: "Montserrat-Bold";
+    padding-left: 10px;
+    margin-bottom: 32px;
+    border-left: solid 5px #F8D442;
+    font-size: 32px;
+}
+
+.div__title strong {
+    font-family: "Montserrat-SemiBold";
+    font-size: 22px;
+}
+
+.div__title p {
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    color: #6C6C6C;
+}
+
+.div__input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.div__input div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div__input div label{
+    font-family: "Montserrat-Medium";
+    font-size: 14px;
+    color: #6c6c6c;
+}
+
+.div__input div input{
+    font-family: "Montserrat-Medium";
+    font-size: 12px;
+    color: #CDCDCD;
+    padding: 15px;
+    border-radius: 4px;
+    border: solid 1px #E5E5E5;
+}
+
+.div__button {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+}
+
+.div__button input{
+    width: 100%;
+    height: 44px;
+    border-radius: 4px;
+    background: #FEAF00;
+    border: none;
+    color: white;
+    font-family: "Montserrat-Medium";
+    font-size: 14px;
+}
+
+.div__button span {
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    color: #6C6C6C;
+}
+
+
+.div__button a {
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    color: #FEAF00;
+}
