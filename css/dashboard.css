@@ -99,7 +99,7 @@ nav {
 .div__optionsContainer {
     display: flex;
     flex-direction: column;
-    gap: 43px;
+    gap: 18px;
     padding-top: 80px;
     align-items: flex-start;
 
@@ -164,4 +164,51 @@ nav {
 .div__home {
     background-color: #FEAF00;
     border-radius: 4px;
+}
+
+
+header {
+    height: 60px;
+    position: absolute;
+    left: 270px;
+    width:  86%;
+}
+
+@media (max-width: 1440px) {
+    header {
+        width:  70%;
+    }
+}
+@media (max-width: 1440px) {
+    header {
+        width:  80%;
+    }
+}
+
+.div__header__search {
+    margin-top: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div__search {
+    display: flex;
+    gap: 25px;
+}
+
+.div__text {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 220px;
+    border-color: black;
+    display: flex;
+    padding: 2px;
+}
+
+.div__text input {
+    width: 212px;
+    height: 37px;
+    border: none;
 }
