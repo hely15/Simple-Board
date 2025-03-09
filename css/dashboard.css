@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/************ DASHBOARD ************/
 main{
    display: flex;
    flex-wrap: wrap;
@@ -11,6 +12,7 @@ main{
    gap: 30px    ;
    top: 90px;
    left: 40%;
+   justify-content: center;
 }
 @media (max-width: 1440px) {
     main{
@@ -79,4 +81,87 @@ strong {
 }
 #payment > strong::before{
     content: attr(data-format);
+}
+/************ DASHBOARD FINISH************/
+
+
+nav {
+    width: 270px;
+    height: 100%;
+    background-color: #F2EAE1;
+}
+.div__navContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div__optionsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    padding-top: 80px;
+    align-items: flex-start;
+
+    div {
+        width: 193px;
+        height: 41px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        justify-content: flex-start;
+        padding-left: 45px;
+    }
+    
+    
+}
+.div__logout {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    padding-top: 25%;
+    align-items: flex-start;
+}
+
+.div__profile {
+    
+    img {
+        border-radius: 50%;
+        top: 96px;
+        left: 35px;
+        position: relative;
+    }
+}
+.div__menuTitle {
+    position: absolute;
+    top: 18px;
+
+    h1 { 
+        font-size: 21px;
+    }
+}
+.div__profileContainer {
+    width: 219px;
+    height: 274px;
+    position: relative;
+
+}
+.div__profile {
+    width: 219px;
+    height: 274px;
+    position: relative;
+}
+.div__profileInfo {
+    position: relative;
+    padding-top: 115px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.div__home {
+    background-color: #FEAF00;
+    border-radius: 4px;
 }
